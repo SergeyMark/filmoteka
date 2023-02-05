@@ -1,0 +1,29 @@
+.footer{
+    background-color: #F7F7F7;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 30px 0;
+}
+
+.students,
+.copy{
+    font-family: var(--main-fonts);
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: var(--footer-color-text);
+}
+
+.students{
+    text-decoration: underline;
+
+    &:hover{
+        color: var(--hover-color-footer);
+    }
+}
