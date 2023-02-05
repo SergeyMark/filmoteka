@@ -1,6 +1,12 @@
 .header{
     background-image: url('./../images/header-bg.jpg');
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+
+    padding-top: 40px;
 }

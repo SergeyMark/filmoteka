@@ -3,9 +3,20 @@
     font-size: 30px;
     line-height: 35px;
 
-    color: #FFFFFF;
+    color: var(--main-color-text);
 
-    &:hover{
-        color: #FF001B;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &:hover,
+    &:focus{
+        color: var(--hover-color-header);
     }
+
+    &__icon{
+        fill: currentColor;
+        stroke: currentColor;
+    }    
 }
+
