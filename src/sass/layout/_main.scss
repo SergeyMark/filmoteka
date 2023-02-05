@@ -5,10 +5,10 @@
 .movie-gallery{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 15px;
 }
 
 .card{
-    flex-basis: calc((100% - 16px) / 3);
-    max-width: 395px;
+    flex-basis: calc((100% - 15px)/3);
+    max-width: 394px;
 }

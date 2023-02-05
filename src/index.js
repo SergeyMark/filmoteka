@@ -3,11 +3,13 @@ import { movieCreateCard } from "./js/movieCreateCard";
 
 const body = document.querySelector('body');
 
-if(body){
+body.onload = function() {
     featchMovie().then(card => {
-        console.log(card.results);
-    })
-}
+        console.log(card);
+        movieCreateCard(card.results);
+    }).catch (error => console.log(error));
+};
 
-// movieCreateCard();
+    
+
 
