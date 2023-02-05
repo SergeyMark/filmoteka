@@ -1,6 +1,13 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+@import './base/vars';
 @import './base/reset';
+@import './base/base';
 
 @import './layout/header';
+@import './components/logo';
+
+
 @import './layout/main';
 @import './layout/footer';
 

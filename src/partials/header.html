@@ -1,13 +1,22 @@
-<header>
-    <div class="header__wrap">
-        <a href="" class="logo"></a>
-        <ul class="list">
-            <li class="list__item"><a href="" class="list__link"></a></li>
-            <li class="list__item"><a href="" class="list__link"></a></li>
-        </ul>
+<header class="header">
+    <div class="container">
+        <div class="header__wrap">
+            <a href="../src/index.html" class="logo">
+            <svg class="logo__icon" width="20" height="20">
+                <use></use>
+            </svg>
+            Filmoteka
+            </a>
+            <nav class="nav-menu">
+            <ul class="site-nav">
+                <li class="site-nav__item"><a href="../src/index.html" class="site-nav__link--active" >Home</a></li>
+                <li class="site-nav__item"><a href="../src/library.html" class="site-nav__link" target="_blank">my library</a></li>
+            </ul>
+            </nav>
+        </div>
+        <form class="search-form">
+            <input type="search" class="search-form__input">
+            <button type="submit" class="search-form__btn"></button>
+        </form>
     </div>
-    <form action="">
-        <input type="search">
-        <button type="submit"></button>
-    </form>
 </header>
