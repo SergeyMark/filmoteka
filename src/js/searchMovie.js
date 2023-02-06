@@ -4,8 +4,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const formSearcher = document.querySelector('.search-form');
 
-const emptyArray = [];
-
 formSearcher.addEventListener('submit', onSearchBtnClick);
 
 function onSearchBtnClick(event){
@@ -64,4 +62,7 @@ function onSearchBtnClick(event){
         movieCreateCard(response.results);  
     
     }).catch(error => console.log(error));
+
+
+    
 };

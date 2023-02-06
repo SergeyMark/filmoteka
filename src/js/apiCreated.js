@@ -24,3 +24,14 @@ export function featchOnSearchedMovie(query) {
     });
 }
 
+export function featchOnClickdMovie(id) {
+    return fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${KEY}&language=en-US`)
+    .then(responce => {
+        if (!responce.ok) {
+            throw new Error(responce.statusText);
+        }
+
+        return responce.json();
+    });
+}
+

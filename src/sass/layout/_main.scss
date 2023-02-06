@@ -15,7 +15,7 @@
 .card{
     flex-basis: calc((100% - 16px)/3);
     max-width: 380px;
-
+    cursor: pointer;
 
     &__title{
         font-family: var(--main-fonts);
