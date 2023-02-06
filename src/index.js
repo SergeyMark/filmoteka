@@ -16,7 +16,9 @@ body.onload = function() {
         const idCardMovie = event.target;
         
         if (idCardMovie.tagName === 'IMG') {
-            featchOnClickdMovie(idCardMovie.parentNode.getAttribute('data-modal'));
+            featchOnClickdMovie(idCardMovie.parentNode.getAttribute('data-modal')).then(modalCard => 
+                console.log(modalCard)
+            );
         }
 
             
