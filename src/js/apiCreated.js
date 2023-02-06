@@ -13,3 +13,7 @@ export function featchMovie() {
     });
 }
 
+export function featchOnSearchedMovie() {
+    return
+}
+

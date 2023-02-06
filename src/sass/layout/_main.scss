@@ -5,10 +5,35 @@
 .movie-gallery{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 16px;
+}
+
+.wrap-text{
+    margin-top: 16px;
 }
 
 .card{
-    flex-basis: calc((100% - 15px)/3);
-    max-width: 394px;
+    flex-basis: calc((100% - 16px)/3);
+    max-width: 380px;
+
+
+    &__title{
+        font-family: var(--main-fonts);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        text-transform: uppercase;
+        
+        color: var(--main-color-title);
+    }
+
+    &__subtext{
+        font-family: var(--main-fonts);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        
+        color: var(--hover-color-footer);
+    }
 }
+

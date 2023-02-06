@@ -27,12 +27,13 @@
 
 .search-form__btn{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -5px;
+    right: -5px;
 
-    width: 16px;
-    height: 16px;
+    padding: 5px 5px;
 
-    display: block;
     border: none;
+    background-color: rgba(0,0,0, 0);
+
+    cursor: pointer;
 }
