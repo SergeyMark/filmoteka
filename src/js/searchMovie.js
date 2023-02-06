@@ -12,7 +12,15 @@ function onSearchBtnClick(event){
     searchQuery = event.currentTarget.search.value.trim();
 
     if (searchQuery === '') {
-        Notify.failure('please enter the name of the movie');
+        Notify.failure('please enter the name of the movie', {
+            position: 'center-center',
+            width: '500px',
+            borderRadius: '0px',
+            opacity: 0.8,
+            backOverlayColor: 'rgba(0, 0, 0, 0.5)',
+            fontSize: '25px',
+            cssAnimationStyle: 'zoom',
+        });
     }
     
     featchOnSearchedMovie(searchQuery).then(response =>
