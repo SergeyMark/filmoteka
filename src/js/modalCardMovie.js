@@ -2,7 +2,7 @@ const cardGallery = document.querySelector('.movie-gallery');
 
 export function modalCardMovie(object) {
     const modalMarkUp = `
-            <div class="backdrop is-hidden" data-modal>
+            <div class="backdrop is-hidden">
                 <div class="modal">
                     <button class="modal-btn" type="button" data-modal-close>
                         <svg class="modal-btn__icon" width="16" height="16">
